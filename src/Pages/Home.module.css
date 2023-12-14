@@ -1,0 +1,48 @@
+/* Home.module.css */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+  }
+  
+  .left {
+    width: 50%;
+    text-align: left;
+  }
+  
+  .right {
+    width: 50%;
+    text-align: right;
+    margin-top: 2rem;
+  }
+  
+  /* Ensure the image doesn't exceed the container width */
+  .right img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .heading {
+    font-size: 1.5rem;
+  }
+  
+  /* Media Query for smaller screens */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .left,
+    .right {
+      width: 100%;
+    }
+  
+    .right {
+      margin-top: 1rem;
+    }
+  }
+  

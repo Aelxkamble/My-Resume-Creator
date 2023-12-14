@@ -1,0 +1,62 @@
+/* Common styles for smaller screens */
+.container {
+    padding: 15px;
+    gap: 15px;
+  }
+  
+  .heading {
+    font-size: 1.8rem;
+  }
+  
+  .toolbar {
+    gap: 20px;
+    padding: 0 15px;
+  }
+  
+  .colors {
+    gap: 10px;
+    padding: 0 15px;
+  }
+  
+  .toolbar button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+  }
+  
+  .toolbar button svg {
+    height: 18px;
+    width: 18px;
+  }
+  
+  /* Media Query for smaller screens */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+      gap: 10px;
+    }
+  
+    .heading {
+      font-size: 1.5rem;
+    }
+  
+    .toolbar {
+      gap: 15px;
+      padding: 0 10px;
+    }
+  
+    .colors {
+      gap: 8px;
+      padding: 0 10px;
+    }
+  
+    .toolbar button {
+      padding: 4px 8px;
+      font-size: 0.8rem;
+    }
+  
+    .toolbar button svg {
+      height: 16px;
+      width: 16px;
+    }
+  }
+  
